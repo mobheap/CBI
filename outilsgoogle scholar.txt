@@ -12,3 +12,12 @@ transform data to structured:
 n8n
 
 
+Scraped and extracted unstructured data from Google Scholar, collecting research articles and metadata using Python.
+
+Cleaned, transformed, and structured raw text data for analysis, ensuring accuracy and consistency.
+
+Built interactive Power BI dashboards to visualize key insights from academic publications and research trends.
+
+Performed exploratory data analysis (EDA) and statistical modeling to identify patterns and trends in scholarly data.
+
+Developed predictive models to forecast research trends using machine learning techniques.
