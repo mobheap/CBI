@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import re
 
 with open('scraped_page.html', 'r', encoding='utf-8') as file:
     html = file.read()
@@ -29,17 +30,16 @@ for product in products:
     name_container = useful.find('div', class_="product-card__product-name")
     if name_container:
         name = name_container.find('div').text
-        print(name)
-        # names.append(name)
+        names.append(name)
     
-#     criticism = product.find('div', class_="product-card_rating__0QJvM")
-#     # rating = criticism.find('div').text
-#     # ratings.append(rating)
+    criticism = useful.find('div', class_="d-f ai-c fw-w")
+    rating = criticism.find('span', class_="fw-semibold").text
+    ratings.append(rating)
     
-#     num_ratings = criticism.find('span', class_='pl-4th').text
-#     print(num_ratings)
-# #     num_ratings = re.search(r'\((\d+) Ratings\)', num_ratings).group(1) #regular expression to get num only
-# #     nums_ratings.append(num_ratings)
+    num_ratings = criticism.find('span', class_='pl-4th').text.strip()
+    num_ratings = re.search(r"\(([\d,]+)\)", num_ratings).group(1).replace(',', '')
+    print(num_ratings)
+    nums_ratings.append(num_ratings)
     
 # #     description_section = product.find('div', class_='product-card_content__cP10h')
 # #     description = description_section.find('span').text
