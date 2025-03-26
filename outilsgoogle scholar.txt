@@ -1,0 +1,14 @@
+google scholar - scraping - unstructured - structured - cleaning - visualizations - analytics = predictions
+
+
+scraping:
+	octoparse
+	Title - URL - Author - Description - Cited - Other_Articles(similar) - Versions
+	
+	SerpAPI - JSON
+
+
+transform data to structured:
+n8n
+
+
