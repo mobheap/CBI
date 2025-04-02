@@ -51,4 +51,4 @@ for row in table.find_all("tr")[1:]:  # Skipping header row
 df = pd.DataFrame(rows, columns=headers)
 print(df)
 
-df.to_csv("data/Uptrace.csv", index=False)
+df.to_csv("data/raw/Uptrace.csv", index=False)

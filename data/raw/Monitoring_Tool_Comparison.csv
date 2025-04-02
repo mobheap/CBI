@@ -1,0 +1,14 @@
+Feature,Dynatrace,New Relic,Datadog,AppDynamics
+Core Offering,Full-stack observability,Application performance monitoring,Full-stack observability and monitoring,Application performance management
+Key Focus,"AIOps, APM, Cloud, Infrastructure","APM, Infrastructure, Logs","Cloud monitoring, Infrastructure, APM","APM, Cloud monitoring, Business Intelligence"
+Monitoring Capabilities,"APM, Infrastructure, Logs, Real User Monitoring (RUM)","APM, Infrastructure, Logs, RUM","APM, Infrastructure, Logs, RUM","APM, Infrastructure, Business Transaction Monitoring"
+AI & Automation,"Strong AI-powered capabilities for anomaly detection, automated root cause analysis",AI-driven insights and anomaly detection,Machine Learning for anomaly detection,AI-driven insights for anomaly detection
+Cloud-Native,"Yes, designed for cloud and hybrid environments","Yes, supports cloud-native environments","Yes, strong focus on cloud-native environments","Yes, with cloud monitoring features"
+Integrations,"Extensive integrations with cloud, containers, and infrastructure platforms","Broad integrations with cloud, mobile, and web",Broad integrations with cloud and infrastructure services,"Extensive integrations with cloud, mobile, and web"
+Ease of Use,"User-friendly, with automated root-cause analysis and setup",Intuitive UI but requires some learning for advanced features,Highly intuitive with strong dashboards,"Powerful, but can be complex to configure initially"
+Pricing,"Subscription-based, based on the number of hosts or services monitored","Subscription-based, based on the number of hosts and features","Subscription-based, pricing varies by usage and service","Subscription-based, with tiered pricing models"
+Real User Monitoring (RUM),Yes,Yes,Yes,Yes
+Log Management,"Yes, with built-in log analytics","Yes, with log management features","Yes, with integrated log management","Yes, with log analytics capabilities"
+Mobile Monitoring,"Yes, mobile app performance monitoring","Yes, mobile and web monitoring","Yes, with mobile and browser monitoring","Yes, with mobile and browser monitoring"
+Dashboards & Reporting,Highly customizable dashboards and reports,Customizable dashboards and detailed reporting,Customizable dashboards and interactive reporting,Advanced reporting and customizable dashboards
+Trial Period,15-day free trial,30-day free trial,14-day free trial,15-day free trial
