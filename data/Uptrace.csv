@@ -1,0 +1,16 @@
+Tool,Real-time Monitoring,OpenTelemetry Support,Open-source,Cloud-Native,Distributed Tracing,Price Range
+Uptrace,Yes,Native,Yes,Yes,Yes,Low-Medium
+Dynatrace,Yes,Yes,No,Yes,Yes,High
+New Relic,Yes,Yes,No,Yes,Yes,Medium-High
+AppDynamics,Yes,Limited,No,Yes,Yes,High
+Datadog,Yes,Yes,No,Yes,Yes,Medium-High
+Splunk APM,Yes,Yes,No,Yes,Yes,High
+Elastic APM,Yes,Yes,Yes,Yes,Yes,Low-Medium
+SolarWinds APM,Yes,Limited,No,Limited,Limited,Low-Medium
+ManageEngine,Yes,No,No,Limited,Limited,Low-Medium
+Apache SkyWalking,Yes,Yes,Yes,Yes,Yes,Free/Low
+Prometheus & Grafana,Yes,Via Integration,Yes,Yes,No,Free/Low
+Jaeger,Yes,Native,Yes,Yes,Yes,Free/Low
+Coroot,Yes,Yes,Partial,Yes,Yes,Low-Medium
+highlight.io,Yes,Yes,Yes,Yes,Yes,Low-Medium
+Scouter,Yes,No,Yes,Limited,Limited,Free

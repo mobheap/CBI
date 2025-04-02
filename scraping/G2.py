@@ -33,14 +33,14 @@ driver.quit()
 
 # print(html)
 
-# with open("scraped_page.html", "w", encoding="utf-8") as file:
-#     file.write(html)
+with open("data/raw/scraped_page.html", "w", encoding="utf-8") as file:
+    file.write(html)
 
 from bs4 import BeautifulSoup
 import re
 import pandas as pd
 
-# with open('scraped_page.html', 'r', encoding='utf-8') as file:
+# with open('data/raw/scraped_page.html', 'r', encoding='utf-8') as file:
 #     html = file.read()
     
 # with open('original.html', 'r') as file:
@@ -90,4 +90,4 @@ products_dict = {
 
 products_df = pd.DataFrame(products_dict)
 
-products_df.to_csv('APM tools G2.csv', index=False)
+products_df.to_csv('data/raw/APM tools G2.csv', index=False)
