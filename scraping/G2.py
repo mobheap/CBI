@@ -90,4 +90,4 @@ products_dict = {
 
 products_df = pd.DataFrame(products_dict)
 
-products_df.to_csv('data/raw/APM tools G2.csv', index=False)
+products_df.to_csv('data/raw/G2.csv', index=False)

@@ -78,4 +78,4 @@ for product in products:
     products_dict = {'Name': names, 'Rating-5': ratings, 'Number of reviews': nums_ratings, 'Description': descriptions}
     products_df = pd.DataFrame(products_dict)
 
-products_df.to_csv('data/raw/APM tools Gartner.csv', index=False)
+products_df.to_csv('data/raw/Gartner.csv', index=False)
