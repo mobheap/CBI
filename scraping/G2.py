@@ -22,7 +22,7 @@ driver.get(url)
 try:
     # element to wait for
     wait = WebDriverWait(driver, 10)
-    main_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.some-class')))
+    main_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.class')))
     print("Page loaded successfully!")
 except Exception as e:
     print(f"Error loading page: {e}")
